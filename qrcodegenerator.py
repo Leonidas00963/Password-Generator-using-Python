@@ -2,9 +2,8 @@ import qrcode
 
 
 
-qr = qrcode.QRCode(
-
-    version = 15,
+qr = qrcode.QrCode(
+    version=1,
     box_size=15,
     border=5
 )
