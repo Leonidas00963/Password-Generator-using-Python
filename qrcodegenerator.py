@@ -1,7 +1,6 @@
 import qrcode
 
-#qr = qrcode.make('Hello World')
-#qr.save('myQR.png')
+
 
 qr = qrcode.QRCode(
 
@@ -12,6 +11,6 @@ qr = qrcode.QRCode(
 
 data = 'https://www.webfeinschliff.de/wp-content/uploads/2017/06/karrieretutor-dozent-daniel-werner-1024x1024.png'
 qr.add_data(data)
-qr.make(fit=true)
-img = qr.make_image(fill='black', back_color='white')
-img.save('Karriretutor Logo')
+qr.make(ƒit=true)
+img = qr.make_image(ƒill='black', back_color='white')
+img.save('Karriretutor Logo.png')
